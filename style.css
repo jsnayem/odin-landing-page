@@ -1,0 +1,136 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    gap: 72px;
+    color: #F9FAF8;
+}
+.intro-image {
+    height: 250px;
+}
+.intro button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    padding: 8px;
+    gap: 72px;
+    color: #1F2937;
+    font-size: 24px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards {
+    width: 260px;
+    font-size: 18px;
+}
+.cards img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+.menu h2 {
+    align-self: center;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+.review h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.review p {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+.offer {
+    display: flex;
+    height: 200px;
+    background-color: #F9FAF8;
+    padding: 100px 200px;
+}
+.footer {
+    display: flex;
+    height: 42px;
+    background-color: #1F2937;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+}
+.offer {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.offer-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100px;
+    width: 700px;
+    justify-content: space-around;
+    align-items: center;
+}
+.offer-container button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.offer-text {
+    color: #E5E7EB;
+
+}
+.footer span {
+    color: #FF4033;
+    margin: 0 2px;
+}
+.header, .intro, .menu, .review, .offer {
+    padding: 8px 15%;
+}
