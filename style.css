@@ -1,6 +1,7 @@
 body {
     font-family: Roboto;
     margin: 0;
+    text-align: justify;
 }
 .header {
     display: flex;
@@ -29,6 +30,10 @@ a {
     align-items: center;
     gap: 72px;
     color: #F9FAF8;
+    justify-content: space-between;
+}
+.intro-text {
+    max-width: 520px;
 }
 .intro-image {
     height: 250px;
@@ -130,6 +135,9 @@ a {
 .footer span {
     color: #FF4033;
     margin: 0 2px;
+}
+.footer a {
+    margin: 0 4px;
 }
 .header, .intro, .menu, .review, .offer {
     padding: 8px 15%;
